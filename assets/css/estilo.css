@@ -1,0 +1,67 @@
+.menu_visao{
+	background-color:white;
+	margin-top:-24px;
+	margin-bottom:15px;
+	padding:6px 30px;
+}
+
+form .form-control{
+	background-color:#F9F9F9;
+	transition:background-color 0.2s;
+	-webkit-transition:background-color 0.2s;
+	-moz-transition:background-color 0.2s;
+}
+
+form .form-control:hover{
+	background-color:white;
+}
+
+.select2-container{
+    width:100% !important;
+}
+
+.select2-selection{
+    border-radius:0px !important;
+}
+
+.select2-selection__rendered{
+    font-size:12px;
+}
+
+.modal-danger .modal-header{
+    background-color: #d9534f !important;
+}
+
+.modal-danger .modal-content {
+    border-color: #d9534f !important;
+}
+
+.container-fluid{
+    padding-left:10px !important;
+    padding-right:10px !important;
+}
+
+@media screen and (max-width: 400px) {
+	
+	.container-fluid{
+        padding-left:0px !important;
+        padding-right:0px !important;
+	}
+    
+}
+
+.panel-heading{
+    padding:8px;
+    font-size:14px;
+    max-width:250px;
+}
+
+.panel-heading i{
+    font-size:20px;
+}
+
+.panel-body{
+    padding:12px;
+    padding-top:15px;
+    border:1px solid #20a8d8;
+}
